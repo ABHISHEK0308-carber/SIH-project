@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripsy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 
 <body>
-    <header>
+    <!-- nav bar start -->
+    <section class="header">
         <div id="menu-bar" class="fas fa-bars"></div>
-
         <a href="#" class="logo"><span>Trip</span>sy</a>
         <a href="#" class="logopic"><img src="images/logo.jpg" alt=""></a>
 
@@ -20,12 +22,19 @@
             <a href="#services">services</a>
             <a href="#gallery">gallery</a>
             <a href="#review">review</a>
+            <a href="#Blogs">Blogs</a>
             <a href="#contact">contact</a>
         </nav>
 
-
-        </form>
-    </header>
+        <div class="searchbar">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Search Here">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
     <section class="home" id="home">
 
         <div class="content">
@@ -116,114 +125,171 @@
         </div>
 
     </section>
-    <section class="review" id="review">
+   <!-- reviews section starts  -->
 
-        <h1 class="heading">
-            <span>r</span>
-            <span>e</span>
-            <span>v</span>
-            <span>i</span>
-            <span>e</span>
-            <span>w</span>
-        </h1>
+<section class="reviews" id ="review">
 
-        <div class="swiper-container review-slider">
+    <h1 class="heading">
+             <span>r</span>
+             <span>e</span>
+             <span>v</span>
+             <span>i</span>
+             <span>e</span>
+             <span>w</span>
+         </h1>
+ 
+    <div class="swiper reviews-slider">
+ 
+       <div class="swiper-wrapper">
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo </h3>
+             <span>traveler</span>
+             <img src="images/pic-1.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus et suscipit optio similique totam aut laborum ullam sequi! In!</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-2.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim deserunt, ab at ea iste odio placeat doloribus eum dolores tempore obcaecati, dolore esse aperiam. Excepturi ad quo distinctio, dignissimos voluptate, dolores, saepe animi eum atque sint esse ab exercitationem!</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-3.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae cum quibusdam odio dignissimos nemo?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-4.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-5.png" alt="">
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
+             <h3>john deo</h3>
+             <span>traveler</span>
+             <img src="images/pic-6.png" alt="">
+          </div>
+ 
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- reviews section ends -->
+ 
+    <section>
+        <div class="blog" id="blog">
+            <h1 class="heading">
+                <span>B</span>
+                <span>l</span>
+                <span>o</span>
+                <span>g</span>
+                <span>s</span>
+            </h1>
+            <div class="row">
 
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/abhiGoyal.jpg" alt="">
-                        <h3>abhishek</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
-                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
-                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/harsh.jpg" alt="">
-                        <h3>Harsh </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facere?</p>
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/vijay.jpg" alt="">
-                        <h3>vijay</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, at!</p>
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/aman.jpg" alt="">
-                        <h3>Aman</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, corrupti.</p>
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/yuvraj.jpg" alt="">
-                        <h3>yuvraj</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, provident!</p>
-
-                    </div>
-                </div>
             </div>
-
         </div>
-
     </section>
 
-
-
-    <section class="contact" id="contact">
-
+<section>
+    <div class="contect" id="contect">
         <h1 class="heading">
-            <span>c</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>t</span>
-        </h1>
-
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
         <div class="row">
-
-            <div class="image">
-                <img src="images/logo.jpg" alt="">
+            <div class="column">
+                <img src="images/logo.jpg" style="width:70%">
             </div>
-
-            <form action="">
-                <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="subject">
-                </div>
-                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn" value="send message">
-            </form>
-
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">India</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">Japan</option>
+                        <option value="usa">Rasia</option>
+                        <option value="usa">Australia</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-
-    </section>
+    </div>
+   </section>
     <section class="footer">
 
         <div class="box-container">
 
             <div class="box">
                 <h3>about us</h3>
-                <p>The team tripsy comprises ff five members from IIIT-BH . We are looking forward to enhance and boost
+                <p>The team tripsy comprises six members from IIIT-BH . We are looking forward to enhance and boost
                     <span>Travel & Tourism</span> Industry and facilitate every citizen of our courntry as well as
-                    foreign nations, who wish to plan a visit in India
+                    foreign nations, who wish to plan a visit in India.
                 </p>
             </div>
 
@@ -232,6 +298,7 @@
         <h1 class="credit"> created by <span> tripsy Team </span> | all rights reserved! </h1>
 
     </section>
+    <script src="script.js"></script>
 
 </body>
 
